@@ -1,92 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="responsividade.css">
-  <script src="font-awesome.js"></script>
-  <title>Página inicial</title>
-</head>
-<body>
-	<div class="container">
-		<div class="header">
-			<header>
-				<nav>
-					<ul>
-						<li>
-							<a href="#sobre">Sobre</a>
-						</li>
-						<li>
-							<a href="#produtos">Produtos</a>
-						</li>
-						<li>
-							<a href="#contato">Contato</a>
-						</li>
-					</ul>
-				</nav>
-			</header>
-		</div> <!--Fim Header-->
-		<div id="sobre">
-			<div class="profile_photo">
-				<img src="images/profile_photo.png" alt="Foto de perfil">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<!-- <link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/responsividade.css" /> -->
+		<script src="font-awesome.js"></script>
+		<title>Página inicial</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+				</header>
+				<header>
+					<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+						<a class="navbar-brand" href="#sobre">Sobre</a>
+						<a class="navbar-brand" href="#produtos">Produtos</a>
+						<a class="navbar-brand" href="#contato">Contato</a>
+					  </nav>
+				</header>
 			</div>
-			<div class="profile_info">
-				<p>Sou Rita Helena Sant Ana, formada no curso de Técnico em Biblioteconomia.</p>
-				<p>Trabalho no escritório Trench Rossi Watanabe e nas horas livres vendo produtos e faço também a digitação e formatação de documentos.</p>
-			</div>
-		</div>
-		<div id="produtos">
-			<p>Produtos que realizo a venda</p>
-			<p>Clique nas imagens para ser direcionado ao catálogo de produtos</p>
-			<div class="produtos-imagens">
-				<div class="boticario_img">
-					<a href="https://www.sejaumarevendedora.boticario.com.br/Conteudo/revendedor/default.aspx#revista" target="_blank">
-						<img src="images/Boticario_logo.png" alt="O Boticario">
-					</a>
+			<!--Fim Header-->
+			<section id="sobre">
+				<div class="container-fluid text-center">
+					<img src="images/profile_photo_1.png" alt="Foto de perfil" class="rounded-circle" />
+					<p class="text-center">
+						Sou Rita Helena Sant Ana, formada no curso de Técnico em
+						Biblioteconomia.
+					</p>
+					<p>
+						Trabalho no escritório Trench Rossi Watanabe e nas horas
+						livres vendo produtos e faço também a digitação e
+						formatação de documentos.
+					</p>
 				</div>
-				<div class="eudora_img">
-					<a href="https://guia.eudora.com.br/?d=d&p=1" target="_blank">
-						<img src="images/eudora_new.png" alt="Eudora">
-					</a>
-				</div>
-				<div class="natura_img">
-					<a href="https://sites.natura.com.br/revista/espaco-natura-c202007-v1"
-					 target="_blank"> 
-						<img src="images/natura_logo.png" alt="Natura">
-					</a>
-				</div>
-			</div>
-		</div>
-		<div id="contato">
-
-			<div class="aditional_info">
-				<p>Aceitamos cartões de crédito e debito</p>
-				<div class="cards">
-					<img src="images/bandeiras/mastercard.png" alt="mastercard">
-					<img src="images/bandeiras/visa.png" alt="visa">
-					<img src="images/bandeiras/elo.png" alt="elo">
-					<img src="images/bandeiras/cabal.png" alt="cabal">
-					<img src="images/bandeiras/hipercard.png" alt="hipercard">
-					<img src="images/bandeiras/hiper.png" alt="hiper">
-					<img src="images/bandeiras/american_express.png" alt="american express">
-					<img src="images/bandeiras/dinners.png" alt="dinners">
-				</div> <!--Cartoes-->
-			</div>
-
-			<div class="contact_info">
-				<p>Entre em contato</p>
-				<a href="https://www.facebook.com/ritahelena.santana">
-					<i style="display: inline;" class="fab fa-facebook-square facebook-icon"></i>
-					<p style="display: inline;">/ritahelena.santana</p>
-				</a>
+			</section>
+			<section id="produtos">
+				<div class="container-fluid text-center">
+					<p>Produtos que realizo a venda</p>
 				<p>
-					<i class="fas fa-mobile mobile-icon"></i>(11) 98435-1690
+					Clique nas imagens para ser direcionado ao catálogo de
+					produtos
 				</p>
+				<!--Produtos-->
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3">
+							<a
+      							href="https://www.sejaumarevendedora.boticario.com.br/Conteudo/revendedor/default.aspx#revista"
+      							target="_blank"
+    						>
+      						<img				
+        						src="images/Boticario_logo.png"
+        						alt="O Boticario"
+      						/>
+    						</a>
+						</div>
+						<div class="col-lg-3">
+							<a
+      							href="https://guia.eudora.com.br/?d=d&p=1"
+      							target="_blank"
+    						>
+      						<img src="images/eudora_new.png" alt="Eudora" />
+    						</a>
+						</div>
+						<div class="col-lg-3">
+							<a
+      							href="https://sites.natura.com.br/revista/espaco-natura-c202009-v1"
+      							target="_blank"
+    							>
+      							<img src="images/natura_logo.png" alt="Natura" />
+    						</a>
+						</div>
+						<div class="col-lg-3">
+							<a
+      							href="http://demillus.vestemuitomelhor.com.br/paginas/campanha-9-10-2020/campanha-9-10-2020/"
+      							target="_blank"
+    							>
+      							<img src="images/demillus.png" alt="De Millus" />
+    						</a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</section>
+			<div id="contato">
+				<div class="aditional_info">
+					<p>Aceitamos cartões de crédito e debito</p>
+					<div class="cards">
+						<img
+							src="images/bandeiras/mastercard.png"
+							alt="mastercard"
+						/>
+						<img src="images/bandeiras/visa.png" alt="visa" />
+						<img src="images/bandeiras/elo.png" alt="elo" />
+						<img src="images/bandeiras/cabal.png" alt="cabal" />
+						<img
+							src="images/bandeiras/hipercard.png"
+							alt="hipercard"
+						/>
+						<img src="images/bandeiras/hiper.png" alt="hiper" />
+						<img
+							src="images/bandeiras/american_express.png"
+							alt="american express"
+						/>
+						<img src="images/bandeiras/dinners.png" alt="dinners" />
+					</div>
+					<!--Cartoes-->
+				</div>
+
+				<div class="contact_info">
+					<p>Entre em contato</p>
+					<a href="https://www.facebook.com/ritahelena.santana">
+						<i
+							style="display: inline;"
+							class="fab fa-facebook-square facebook-icon"
+						></i>
+						<p style="display: inline;">/ritahelena.santana</p>
+					</a>
+					<p>
+						<i class="fas fa-mobile mobile-icon"></i>(11) 98435-1690
+					</p>
+				</div>
 			</div>
-		</div> <!-- Fim div contato-->
-	</div> <!--Fim container-->
-</body>
+			<!-- Fim div contato-->
+		</div>
+		<!--Fim container-->
+	</body>
 </html>
