@@ -1,0 +1,161 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-size: 1.6rem;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to bottom, #000 0, #000 30%, #FF4500 40%);
+}
+
+nav{
+	width: 100%;
+	height: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 2rem;
+}
+
+nav ul li a{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.profile_photo{
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.profile_photo img{
+	border: 1px solid #fff;
+	height: 17.7rem;
+	border-radius: 50%;
+}
+
+.profile_info{
+	margin-top: 1.5rem;
+	margin-bottom: 3.0rem;
+	width: 100%;
+}
+
+.profile_info p{
+	text-align: center;
+}
+
+#produtos{
+	width: 100%;
+	height: 50rem;
+}
+
+#produtos p{
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.produtos-imagens{
+	width: 100%;
+	height: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.boticario_img{
+	width: 25%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.eudora_img{
+	width: 25%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.natura_img{
+	width: 25%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#contato{
+	width: 100%;
+	height: 25rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#contato a{
+	color: #000;
+	text-decoration: none;
+
+}
+
+#contato a:visited{
+	color: #000;
+}
+
+.contact_info{
+	width: 48%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.contact_info p a{
+	color: #FFF;
+}
+
+.aditional_info{
+	width: 48%;
+	height: 100%;
+}
+
+.cards{
+	width: 100%;
+	height: 90%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 10vh;
+}
+
+.aditional_info p{
+	text-align: center;
+	margin-bottom: 1.5rem;
+	color: #FFF;
+}
+
+.facebook-icon{
+	color: blue;
+}
+
+.mobile-icon{
+	color: #000;
+}
