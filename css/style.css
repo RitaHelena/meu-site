@@ -7,6 +7,10 @@
 	color: var(--text-color);
 }
 
+html {
+	font-size: 62.5%;
+}
+
 .site {
 	width: 100%;
 	height: 100%;
@@ -45,17 +49,6 @@
 }
 
 .aditional_info {
-	align-items: center;
-	justify-content: center;
-}
-
-.contact_info {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	background-color: hotpink;
-	flex: 1;
 	align-items: center;
 	justify-content: center;
 }
